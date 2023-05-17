@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-900 text-gray-200;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.nav-item {
+  @apply text-lg font-semibold hover:text-gray-400;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-4;
+}
