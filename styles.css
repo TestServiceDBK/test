@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+#header {
+  background-color: rgba(17, 24, 39, 1);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-card {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main {
+  background-color: rgba(29, 78, 216, 1);
+}
+
+#about,
+#projects,
+#contact {
+  background-color: rgba(37, 99, 235, 1);
+}
