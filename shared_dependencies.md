@@ -1,14 +1,4 @@
-Shared Dependencies:
-
-1. Tailwind CSS: A CSS framework used for styling the website. It will be used in both "index.html" and "styles.css" files.
-2. DOM Element IDs: These IDs will be used in "index.html" for creating the structure of the website and may be referenced in "styles.css" for applying custom styles.
-   - header
-   - main
-   - about
-   - projects
-   - contact
-3. CSS Classes: These classes will be used in "index.html" for applying Tailwind CSS styles and may be referenced in "styles.css" for customizing the styles.
-   - container
-   - section-title
-   - project-card
-4. Tailwind Configuration: The "tailwind.config.js" file will contain the configuration for customizing the Tailwind CSS framework, which will be used in both "index.html" and "styles.css" files.
+1. Tailwind CSS: A CSS framework used for styling the website. It is shared between "index.html" and "styles.css".
+2. Dark theme: A design choice shared between "index.html" and "styles.css" to create a dark and clean appearance similar to https://linear.app.
+3. Name "Tomas": A piece of content to be displayed on the website, shared between "index.html" and potentially "styles.css" for styling purposes.
+4. "tailwind.config.js": A configuration file for customizing Tailwind CSS, shared between "index.html" and "styles.css" to apply the dark theme and other custom styles.

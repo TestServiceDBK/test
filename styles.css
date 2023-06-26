@@ -2,25 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Custom styles */
 body {
-  background-color: #1A202C;
+  @apply bg-gray-900 text-white;
 }
 
-#header {
-  border-bottom: 1px solid #2D3748;
-}
-
-.section-title {
-  color: #A0AEC0;
-}
-
-.project-card {
-  background-color: #2D3748;
-  border-radius: 0.5rem;
-}
-
-#contact {
-  background-color: #2D3748;
-  border-radius: 0.5rem;
+.name {
+  @apply text-4xl font-bold;
 }
